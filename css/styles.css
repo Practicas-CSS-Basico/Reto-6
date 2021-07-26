@@ -1,0 +1,18 @@
+/*
+Colores
+  purple: hsl(263, 55%, 52%)
+  grey: hsl(217, 19%, 35%)
+  dark-blue: hsl(219, 29%, 14%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Barlow+Semi+Condensed
+  Estilos 500 y 600
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
