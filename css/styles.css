@@ -17,5 +17,112 @@ Fuente de la página
 }
 
 body {
+  font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #333;
+  font-weight: 500;
+}
+
+.grid-container {
+  position: relative;
+  width: 1400px;
+  margin: 3rem auto;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  vertical-align: top;
+  margin-right: 1.5em;
+  padding: 2em;
+  line-height: 1.5;
+  border-radius: 1em;
+}
+
+.card__quotes {
+  position: absolute;
+  top: 4em;
+  right: 10em;
+}
+
+.card__title {
+  position: relative;
+}
+
+.card__text {
+  opacity: 0.7;
+}
+
+.card--first {
+  width: 675px;
+}
+
+.card--second {
+  width: 350px;
+}
+
+.card--third {
+  width: 300px;
+  margin-right: 0;
+  height: 825px;
+}
+
+.card--fourth,
+.card--fifth {
+  position: absolute;
+  top: 425px;
+}
+
+.card--fourth {
+  left: 0;
+  width: 325px;
+}
+
+.card--fifth {
+  left: 355px;
+  width: 700px;
+}
+
+.card--purple,
+.card--grey,
+.card--black {
+  color: #fff;
+}
+
+.card--purple {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.card--grey {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.card--black {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.card--white {
+  background-color: #fff;
+  color: #000;
+}
+
+.user {
+  width: 250px;
+}
+
+.user__image {
+  border-radius: 50%;
+  max-width: 25%;
+}
+
+.user__image,
+.user__info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user__name,
+.user__category {
+  margin: 0.5em 1em;
+  opacity: 0.5;
 }
